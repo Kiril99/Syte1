@@ -1,5 +1,7 @@
-@media screen and(max-width: 750px) {
-	
+@media only screen and (max-width: 550px) {
+header h1 a{
+	font-size: 30px;
+}	
 }
 body{
 	margin:0 auto;
@@ -167,13 +169,7 @@ header ul li{
 .bot:active{
 	margin-top:10px;
 	}
-	/*responsive*/
-@media screen  and(max-width: 585px){
-		.whiteBox p{
-			margin-top: 50px;
 
-	}
-}
 .Map{
 	display: flex;
 	justify-content: center;
